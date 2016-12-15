@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52C5A31FB2F7D45E870C0D4B /* libPods-Database.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D20ECAB4FB037D3F898D2300 /* libPods-Database.a */; };
 		5B6128C31DF806A80010BE31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128C21DF806A80010BE31 /* main.m */; };
 		5B6128C61DF806A80010BE31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128C51DF806A80010BE31 /* AppDelegate.m */; };
 		5B6128C91DF806A80010BE31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128C81DF806A80010BE31 /* ViewController.m */; };
@@ -15,11 +16,6 @@
 		5B6128D11DF806A80010BE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B6128CF1DF806A80010BE31 /* LaunchScreen.storyboard */; };
 		5B6128DC1DF806A80010BE31 /* DatabaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128DB1DF806A80010BE31 /* DatabaseTests.m */; };
 		5B6128E71DF806A80010BE31 /* DatabaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128E61DF806A80010BE31 /* DatabaseUITests.m */; };
-		5B6129071DF8070A0010BE31 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128F61DF8070A0010BE31 /* FMDatabase.m */; };
-		5B6129081DF8070A0010BE31 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128F81DF8070A0010BE31 /* FMDatabaseAdditions.m */; };
-		5B6129091DF8070A0010BE31 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128FA1DF8070A0010BE31 /* FMDatabasePool.m */; };
-		5B61290A1DF8070A0010BE31 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128FC1DF8070A0010BE31 /* FMDatabaseQueue.m */; };
-		5B61290B1DF8070A0010BE31 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6128FF1DF8070A0010BE31 /* FMResultSet.m */; };
 		5B61290C1DF8070A0010BE31 /* HJDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6129021DF8070A0010BE31 /* HJDatabase.m */; };
 		5B61290D1DF8070A0010BE31 /* HJDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6129041DF8070A0010BE31 /* HJDatabaseManager.m */; };
 		5B61290E1DF8070A0010BE31 /* SqliteUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B6129061DF8070A0010BE31 /* SqliteUtils.m */; };
@@ -60,17 +56,6 @@
 		5B6128E21DF806A80010BE31 /* DatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B6128E61DF806A80010BE31 /* DatabaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseUITests.m; sourceTree = "<group>"; };
 		5B6128E81DF806A80010BE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B6128F51DF8070A0010BE31 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		5B6128F61DF8070A0010BE31 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		5B6128F71DF8070A0010BE31 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		5B6128F81DF8070A0010BE31 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		5B6128F91DF8070A0010BE31 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		5B6128FA1DF8070A0010BE31 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		5B6128FB1DF8070A0010BE31 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		5B6128FC1DF8070A0010BE31 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		5B6128FD1DF8070A0010BE31 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		5B6128FE1DF8070A0010BE31 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		5B6128FF1DF8070A0010BE31 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		5B6129011DF8070A0010BE31 /* HJDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDatabase.h; sourceTree = "<group>"; };
 		5B6129021DF8070A0010BE31 /* HJDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HJDatabase.m; sourceTree = "<group>"; };
 		5B6129031DF8070A0010BE31 /* HJDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJDatabaseManager.h; sourceTree = "<group>"; };
@@ -78,6 +63,9 @@
 		5B6129051DF8070A0010BE31 /* SqliteUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteUtils.h; sourceTree = "<group>"; };
 		5B6129061DF8070A0010BE31 /* SqliteUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteUtils.m; sourceTree = "<group>"; };
 		5B6129101DF807260010BE31 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		66C8306F7E5CEB2BF30836BF /* Pods-Database.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Database.release.xcconfig"; path = "Pods/Target Support Files/Pods-Database/Pods-Database.release.xcconfig"; sourceTree = "<group>"; };
+		87A38AD523DC20DAF9EA4F57 /* Pods-Database.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Database.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Database/Pods-Database.debug.xcconfig"; sourceTree = "<group>"; };
+		D20ECAB4FB037D3F898D2300 /* libPods-Database.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Database.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B6129111DF807260010BE31 /* libsqlite3.0.tbd in Frameworks */,
+				52C5A31FB2F7D45E870C0D4B /* libPods-Database.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F8AA25258D3A64E6020B94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87A38AD523DC20DAF9EA4F57 /* Pods-Database.debug.xcconfig */,
+				66C8306F7E5CEB2BF30836BF /* Pods-Database.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5B6128B51DF806A80010BE31 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +112,7 @@
 				5B6128E51DF806A80010BE31 /* DatabaseUITests */,
 				5B6128BF1DF806A80010BE31 /* Products */,
 				5B61290F1DF807260010BE31 /* Frameworks */,
+				10F8AA25258D3A64E6020B94 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +129,6 @@
 		5B6128C01DF806A80010BE31 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				5B6128F41DF8070A0010BE31 /* fmdb */,
 				5B6129001DF8070A0010BE31 /* HJDatabase */,
 				5B6128C41DF806A80010BE31 /* AppDelegate.h */,
 				5B6128C51DF806A80010BE31 /* AppDelegate.m */,
@@ -171,24 +169,6 @@
 			path = DatabaseUITests;
 			sourceTree = "<group>";
 		};
-		5B6128F41DF8070A0010BE31 /* fmdb */ = {
-			isa = PBXGroup;
-			children = (
-				5B6128F51DF8070A0010BE31 /* FMDatabase.h */,
-				5B6128F61DF8070A0010BE31 /* FMDatabase.m */,
-				5B6128F71DF8070A0010BE31 /* FMDatabaseAdditions.h */,
-				5B6128F81DF8070A0010BE31 /* FMDatabaseAdditions.m */,
-				5B6128F91DF8070A0010BE31 /* FMDatabasePool.h */,
-				5B6128FA1DF8070A0010BE31 /* FMDatabasePool.m */,
-				5B6128FB1DF8070A0010BE31 /* FMDatabaseQueue.h */,
-				5B6128FC1DF8070A0010BE31 /* FMDatabaseQueue.m */,
-				5B6128FD1DF8070A0010BE31 /* FMDB.h */,
-				5B6128FE1DF8070A0010BE31 /* FMResultSet.h */,
-				5B6128FF1DF8070A0010BE31 /* FMResultSet.m */,
-			);
-			path = fmdb;
-			sourceTree = "<group>";
-		};
 		5B6129001DF8070A0010BE31 /* HJDatabase */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				5B6129101DF807260010BE31 /* libsqlite3.0.tbd */,
+				D20ECAB4FB037D3F898D2300 /* libPods-Database.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B6128EB1DF806A80010BE31 /* Build configuration list for PBXNativeTarget "Database" */;
 			buildPhases = (
+				36C5411889495CB9E0C012B0 /* [CP] Check Pods Manifest.lock */,
 				5B6128BA1DF806A80010BE31 /* Sources */,
 				5B6128BB1DF806A80010BE31 /* Frameworks */,
 				5B6128BC1DF806A80010BE31 /* Resources */,
+				E182CFE09E7D11C18FF562F3 /* [CP] Embed Pods Frameworks */,
+				AA6D214923251C5B4540ABDE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,6 +322,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36C5411889495CB9E0C012B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6D214923251C5B4540ABDE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Database/Pods-Database-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E182CFE09E7D11C18FF562F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Database/Pods-Database-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B6128BA1DF806A80010BE31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -345,15 +377,10 @@
 			files = (
 				5B61290D1DF8070A0010BE31 /* HJDatabaseManager.m in Sources */,
 				5B6128C91DF806A80010BE31 /* ViewController.m in Sources */,
-				5B6129091DF8070A0010BE31 /* FMDatabasePool.m in Sources */,
 				5B61290E1DF8070A0010BE31 /* SqliteUtils.m in Sources */,
 				5B61290C1DF8070A0010BE31 /* HJDatabase.m in Sources */,
 				5B6128C61DF806A80010BE31 /* AppDelegate.m in Sources */,
-				5B61290A1DF8070A0010BE31 /* FMDatabaseQueue.m in Sources */,
 				5B6128C31DF806A80010BE31 /* main.m in Sources */,
-				5B6129071DF8070A0010BE31 /* FMDatabase.m in Sources */,
-				5B61290B1DF8070A0010BE31 /* FMResultSet.m in Sources */,
-				5B6129081DF8070A0010BE31 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +525,7 @@
 		};
 		5B6128EC1DF806A80010BE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A38AD523DC20DAF9EA4F57 /* Pods-Database.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Database/Info.plist;
@@ -509,6 +537,7 @@
 		};
 		5B6128ED1DF806A80010BE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C8306F7E5CEB2BF30836BF /* Pods-Database.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Database/Info.plist;
@@ -583,6 +612,7 @@
 				5B6128ED1DF806A80010BE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B6128EE1DF806A80010BE31 /* Build configuration list for PBXNativeTarget "DatabaseTests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +621,7 @@
 				5B6128F01DF806A80010BE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B6128F11DF806A80010BE31 /* Build configuration list for PBXNativeTarget "DatabaseUITests" */ = {
 			isa = XCConfigurationList;
@@ -599,6 +630,7 @@
 				5B6128F31DF806A80010BE31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
