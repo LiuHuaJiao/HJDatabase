@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "FMDatabase.h"
 #import "FMDatabaseQueue.h"
+#import <sqlite3.h>
 
 @interface HJDatabase : NSObject
 
