@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/LiuHuaJiao/HJDatabase.git", :tag => "1.0.0" }
   s.source_files = "Database/Database/HJDatabase","Database/Database/HJDatabase/*.{h,m}"
   s.framework    = "UIkit","Foundation"
-  s.library      = "sqlite3.0.tbd"
+  s.library      = "sqlite3.0"
   s.xcconfig     = {"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" => "YES"}
   s.requires_arc = true
   s.dependency "FMDB"
